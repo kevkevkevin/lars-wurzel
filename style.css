@@ -4861,7 +4861,8 @@ body.dark .project-page-header::before,
     margin: 0;
     display: block;
     font-size: 110px;
-    line-height: 127px
+    line-height: 127px;
+    color: #afff4f;
 }
 
 .project-title h1 .tit_word {
