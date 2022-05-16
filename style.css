@@ -28,10 +28,16 @@ background: linear-gradient(to top, #afff4f, #afff4f); /* W3C, IE 10+/ Edge, Fir
     color: #2b2e31;
 }
 
-.text_ {
+.text_m {
     font-size: 1.2em;
     font-weight: 900;
-    text-transform: uppercase;
+    text-transform: capitalize;
+}
+
+.text_ {
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: capitalize;
 }
 
 .text_span {
