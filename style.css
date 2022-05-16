@@ -40,8 +40,8 @@ background: linear-gradient(to top, #afff4f, #afff4f); /* W3C, IE 10+/ Edge, Fir
     z-index: 99;
 }
 
-.padding_m {
-
+.title_2 {
+    font-size: 30px !important;
 }
 
 .text.s {
