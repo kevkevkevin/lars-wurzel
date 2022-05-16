@@ -40,6 +40,13 @@ background: linear-gradient(to top, #afff4f, #afff4f); /* W3C, IE 10+/ Edge, Fir
     z-index: 99;
 }
 
+.padding_m {
+
+}
+
+.text.s {
+    text-transform: none;
+}
 .text_m {
     font-size: 1.2em;
     font-weight: 900;
@@ -8578,7 +8585,7 @@ body.dark a.circular-button:hover {
     cursor: pointer;
     display: block;
     float: left;
-    padding: 60px 0;
+    padding: 20px 0;
     overflow: hidden;
 }
 
