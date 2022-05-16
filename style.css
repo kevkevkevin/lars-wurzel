@@ -28,6 +28,18 @@ background: linear-gradient(to top, #afff4f, #afff4f); /* W3C, IE 10+/ Edge, Fir
     color: #2b2e31;
 }
 
+.overlay_::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 1%, rgba(0,212,255,0) 100%);
+    z-index: 99;
+}
+
 .text_m {
     font-size: 1.2em;
     font-weight: 900;
@@ -5365,6 +5377,8 @@ body.dark .aw-project .aw-project-wrap::before {
     position: absolute;
     bottom: 40px;
     left: 40px;
+
+    z-index: 999;
 }
 
 
