@@ -40,7 +40,7 @@ background: linear-gradient(to top, #afff4f, #afff4f); /* W3C, IE 10+/ Edge, Fir
     z-index: 99;
 }
 
-.title_2 {
+.title_sub {
     font-size: 30px !important;
 }
 
@@ -7062,7 +7062,7 @@ span.fs-tot::before {
 }
 
 .cas-titles .cs-title {
-    font-size: 150px;
+    font-size: 140px;
     font-weight: 700;
     letter-spacing: -0.06em;
     white-space: nowrap;
